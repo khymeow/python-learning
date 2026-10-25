@@ -17,7 +17,7 @@
 
 ## 二、LeetCode 练习记录
 
-截至2026年10月25日，GitHub 仓库已收录 **6道 LeetCode 题目**，其中5道 Easy、1道 Medium。
+截至2026年10月25日，GitHub 仓库已收录 **7道 LeetCode 题目**，其中5道 Easy、2道 Medium。
 
 | 题号 | 题目 | 难度 | 核心知识点 | 代码 |
 | ---- | ---- | ---- | ---- | ---- |
@@ -27,6 +27,7 @@
 | 1 | 两数之和 | Easy | 哈希表、补数查找 | [leetcode_1.py](leetcode_1.py) |
 | 11 | 盛最多水的容器 | Medium | 双指针、贪心思想 | [leetcode_11.py](leetcode_11.py) |
 | 283 | 移动零 | Easy | 同向双指针、原地修改 | [leetcode_283.py](leetcode_283.py) |
+| 167 | 两数之和 II — 输入有序数组 | Medium | 有序数组、双指针 | [leetcode_167.py](leetcode_167.py) |
 
 题目来源：[LeetCode 中文站](https://leetcode.cn/)
 
@@ -55,6 +56,8 @@
 「盛最多水的容器」从最初的 O(n²) 双重循环解法，优化为 O(n) 的双指针解法。
 
 LeetCode 283「移动零」使用同向双指针，依次写入非零元素并将末尾补零，在 O(n) 时间、O(1) 额外空间内原地修改数组。
+
+LeetCode 167「两数之和 II — 输入有序数组」利用数组有序的特点，从两端移动指针查找目标和，时间复杂度为 O(n)，额外空间复杂度为 O(1)。
 
 ## 三、Python 学习进度
 
@@ -158,6 +161,7 @@ python-learning/
 ├── AGENTS.md
 ├── leetcode_1.py
 ├── leetcode_11.py
+├── leetcode_167.py
 ├── leetcode_283.py
 ├── leetcode_1207.py
 ├── leetcode_1480.py
