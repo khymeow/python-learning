@@ -17,7 +17,7 @@
 
 ## 二、LeetCode 练习记录
 
-截至2026年10月27日，GitHub 仓库已收录 **10道 LeetCode 题目**，其中8道 Easy、2道 Medium。
+截至2026年10月27日，GitHub 仓库已收录 **11道 LeetCode 题目**，其中9道 Easy、2道 Medium。
 
 | 题号 | 题目 | 难度 | 核心知识点 | 代码 |
 | ---- | ---- | ---- | ---- | ---- |
@@ -31,6 +31,7 @@
 | 20 | 有效的括号 | Easy | 字典、栈、括号匹配 | [leetcode_20.py](leetcode_20.py) |
 | 933 | 最近的请求次数 | Easy | 队列、双端队列、滑动时间窗口 | [leetcode_933.py](leetcode_933.py) |
 | 1971 | 寻找图中是否存在路径 | Easy | 图、邻接表、BFS、队列、集合去重 | [leetcode_1971.py](leetcode_1971.py) |
+| 217 | 存在重复元素 | Easy | 集合、成员判断、提前返回 | [leetcode_217.py](leetcode_217.py) |
 
 题目来源：[LeetCode 中文站](https://leetcode.cn/)
 
@@ -173,6 +174,7 @@ python-learning/
 ├── leetcode_11.py
 ├── leetcode_20.py
 ├── leetcode_167.py
+├── leetcode_217.py
 ├── leetcode_283.py
 ├── leetcode_933.py
 ├── leetcode_1207.py
