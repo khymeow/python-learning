@@ -39,6 +39,10 @@ LeetCode 752：打开转盘锁
    且起点死亡时，会误返回 0。目标为其他死亡状态时也应返回 -1。
 7. 使用 set 进行死亡状态与访问状态的成员判断，平均 O(1)，
    避免在每次生成邻居时都线性扫描列表。
+8. queue 与 visited 相互独立，入队不会自动标记已访问；
+   应显式执行 visited.add(neighbor)，再将该状态加入队列。
+9. LeetCode 提交选择 Python3，保留 Solution 类及
+   openLock(self, deadends: List[str], target: str) -> int 方法签名。
 """
 
 from collections import deque
