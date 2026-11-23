@@ -16,6 +16,9 @@ n 为二叉树的节点数。
 2. 漏写 result.append(level)，修正后在内层 for 结束时保存当前层。
 另一次接口报错源于缺少 Solution 类。归档时将独立函数 level_order(root) 的逻辑放入
 Solution.levelOrder(self, root)，保留原有 BFS 实现。
+
+另一次缺少 Solution 类的接口报错为 NameError。学习时自行整理过六组用例：
+普通二叉树、空树、单节点、仅左子节点、不规则二叉树、含重复值和负数的树。
 """
 
 from collections import deque
